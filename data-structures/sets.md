@@ -3,16 +3,16 @@ A **set** is a data structure that does **not** allow **duplicate values** to be
 
 ## Operations
 * **Read**: Reading refers to looking something up at a particular spot within the data structure. 
-With an `array`, this means looking up a value at a particular **index**.
+With a `set`, this means looking up a value at a particular **index**.
 
 * **Search**: Searching refers to looking for a particular value within a data structure.
-With an `array`, this means looking to see if a particular value exists within the `array`, and if so, at which **index**.
+With a `set`, this means looking to see if a particular value exists within the `set`, and if so, at which **index**.
 
 * **Insert**: Insertion refers to adding a new value to our data structure. 
 With a `set`, every insertion into a set first requires a **search**.
 
 * **Delete**: Deletion refers to removing a value from our data structure.
-With an `array`, this means removing one of the values from the `array`.
+With a `set`, this means removing one of the values from the `set`.
 
 
 ## Example
