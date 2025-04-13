@@ -61,7 +61,7 @@ func (a *Array) Remove(value string) (bool, error) {
 		return false, err
 	}
 	a.Entries = append(a.Entries[:pos], a.Entries[pos+1:]...)
-	// Alternative (using slices.Delete):
+	// Alternative (using slices.Delete added in go 1.21+):
 	// a.Entries = slices.Delete(a.Entries, pos, pos+1)
 	return true, nil
 }
